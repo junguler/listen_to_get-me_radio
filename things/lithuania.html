@@ -1,0 +1,32 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:97vh></div><script src=./webamp.bundle.min.js></script><script src=./butterchurn.min.js></script><script src=./butterchurnPresets.min.js></script><script>const Webamp=window.Webamp;new Webamp({initialTracks:[
+  {
+    "-": "PoWeR=-"},
+    metaData:{title: ""},
+    url: "https://cast1.asurahosting.com/proxy/eventas/stream"
+  },
+  {
+    metaData:{title: "Power Gold"},
+    url: "https://powerhit.ls.lv/PHR_GOLD_AAC"
+  },
+  {
+    metaData:{title: "M1 Plus"},
+    url: "https://radio.m-1.fm/m1plius/mp3"
+  },
+  {
+    metaData:{title: "M-1Dance"},
+    url: "http://stream.m-1.fm/m-1dance/aac"
+  },
+  {
+    metaData:{title: "RELAX FM"},
+    url: "https://transliacija.relaxfm.lt/relaxfm128.mp3"
+  },
+  {
+    metaData:{title: "RELAX FM Sentimentai"},
+    url: "https://www.radioking.com/play/sentimentai"
+  },
+  {
+    metaData:{title: "BEVEIK RADIJAS"},
+    url: "https://azura.shoutca.st/radio/8420/radio.mp3"
+  }
+]
+,__butterchurnOptions:{importButterchurn:()=>Promise.resolve(window.butterchurn),getPresets:()=>{const e=window.butterchurnPresets.getPresets();return Object.keys(e).map(t=>({name:t,butterchurnPresetObject:e[t]}))},butterchurnOpen:!0},__initialWindowLayout:{main:{position:{x:0,y:0}},equalizer:{position:{x:0,y:116}},playlist:{position:{x:0,y:232},size:[0,4]},milkdrop:{position:{x:275,y:0},size:[7,12]}}}).renderWhenReady(document.getElementById("app"))</script>
